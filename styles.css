@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color:#F0E9DE;
+	color: #2a2a2a;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 0;
+	padding: 0;
+	background: linear-gradient( to bottom, transparent , pink 50%, #F0E9DE );
+}
+
+.wrapper {
+	width:972px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 18px 18px 18px;	
+}
+
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Home {
+	color:#FF5271;
+}
+
+#Overview, #Gallery, #Item, #Coda {
+	color:#637B60;
+}
+
+h1, h2 {
+	color:#231515;
+}
+
+h3 {
+	color: #243722;
+}
+
+
+
+.site-nav {
+	text-align: center;
+	grid-row-gap: 0px;
+	border: solid #F048B9 2px;
+	justify-items: start;
+	align-items: center;
+	justify-content: space-between;
+	background: pink;
+	
+}
+
+.site-nav a {
+	justify-self: center;
+	color: white;
+	background: pink;	
+	text-decoration: none;
+	border-left: solid white 2px;
+	border-right: solid white 2px;
+	padding: 0px 28px;
+}
+
+
+.site-nav a:hover {
+	color: pink;
+	background: white;
+}
+
+
+
+.main-header {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 190px 0px;
+	background: #CFE2CC;
+	font:  "Times New Roman", "serif";
+
+}
+
+
+
+.page-nav {
+	text-align: center;
+	grid-row-gap: 0px;
+	border: solid #F048B9 2px;
+	justify-items: start;
+	align-items: center;
+	justify-content: space-between;
+	background: pink;
+	
+}
+
+.page-nav a {
+	justify-self: center;
+	color: white;
+	background: pink;	
+	text-decoration: none;
+	border-left: solid white 2px;
+	border-right: solid white 2px;
+	padding: 0px 28px;
+}
+
+.page-nav a:hover {	
+	color: pink;
+	background: white;
+}
+
+
+
+
+.gallery-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 40px;
+	justify-items: center;
+	align-items: start;
+	justify-content: space-between;
+}
+
+
+.gallery-grid img {
+	border-radius: 50%;
+}
+
+.gallery-item {
+	text-align: center;
+}
+
+
+
+
+table {
+	background-color:#000;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+  	background-color:#F0E9DE;
+}
+
+tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+td {
+	border: 1px black;
+	
+}
+
+#selfie {
+	border-radius: 100px;
+}
+
+#highlight {
+	border-radius: 50%;
+}
+
+
+container  {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 350px 500px 300px;
+ column-gap: 5px;
+}
+
+
