@@ -3,6 +3,8 @@
 
 html {
 	scroll-behavior: smooth;
+	width: 900px;
+	max-width: 100%;
 }
 
 body {
